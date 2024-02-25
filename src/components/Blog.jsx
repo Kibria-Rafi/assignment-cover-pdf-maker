@@ -1,4 +1,4 @@
-
+import { key } from "localforage";
 import { useEffect, useState } from "react";
 
 const Blog = () => {
@@ -8,11 +8,11 @@ const Blog = () => {
       .then((response) => response.json())
       .then((data) => setBlog(data));
   }, []);
-  
+  console.log(blog);
   return (
-    <div className="lg:mt-32">
+    <div className="lg:mt-32 section flex flex-col items-center justify-center h-full ">
         <h1 className="text-center text-3xl font-semibold mb-10">Blogs:</h1>
-        <div className=" mx-auto ms-12 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1" id="blog">
+        <div className="mr-0 ms-3 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1" id="blog">
       {blog.map((singleBlog) => (
         <div
           key={singleBlog.id}

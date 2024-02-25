@@ -8,7 +8,7 @@ import Pdf from "./components/Pdf";
 
 const App = () => {
   return (
-    <div style={{ backgroundImage: `url('https://i.ibb.co/87MY2J2/site-bg.jpg')` }}  className="  bg-no-repeat bg-cover overflow-hidden "  >
+    <div style={{ backgroundImage: `url('https://i.ibb.co/87MY2J2/site-bg.jpg')` }}  className="mx-auto  bg-no-repeat bg-cover overflow-hidden "  >
       <Header></Header>
       <Banner></Banner>
       <Pdf></Pdf>

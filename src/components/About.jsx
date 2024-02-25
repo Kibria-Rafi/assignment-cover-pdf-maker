@@ -6,12 +6,12 @@ const About = () => {
     return (
         <div className="section" id="about">
             {/* component */}
-            <div className="mx-auto  p-8">
-            <div className=" rounded-lg shadow-xl pb-8">
+            <div className="section mx-auto flex flex-col items-center justify-center h-full ">
+            <div className=" p-3 rounded-lg shadow-xl pb-8">
                 <div className="w-full h-[250px]">
                     <img src="https://vojislavd.com/ta-template-demo/assets/img/profile-background.jpg" className="w-full h-full rounded-tl-lg rounded-tr-lg" alt="Profile Background" />
                 </div>
-                <div className="flex flex-col items-center -mt-20">
+                <div className="flex flex-col items-center mt-20">
                     <img src="https://i.ibb.co/twRd8cv/123581729.jpg" className="w-40 border-4 border-white rounded-full" alt="Profile" />
                     <div className="flex items-center space-x-2 mt-2">
                         <p className="text-2xl text-white">Kibria Rafi</p>
@@ -21,8 +21,8 @@ const About = () => {
                             </svg>
                         </span>
                     </div>
-                    <p className="">Studying BSC in Computer Science and Engineering at Daffodil International University. </p>
-                    <p className="text-sm ">Daffodil Smart city, Birulia, Savar, Dhaka</p>
+                    <p className="text-center">Studying BSC in Computer Science and Engineering at Daffodil International University. </p>
+                    <p className="text-sm text-center">Daffodil Smart city, Birulia, Savar, Dhaka</p>
                 </div>
                 <div className="flex-1 flex flex-col items-center lg:items-end justify-end px-8 mt-2">
                     <div className="flex items-center space-x-4 mt-2">
