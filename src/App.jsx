@@ -15,7 +15,7 @@ const App = () => {
       <Blog/>
       <About></About>
       <Nav></Nav>
-      <div className=''></div>
+      <div className='h-full'></div>
     </div>
   );
 };
