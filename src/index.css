@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+  .gradient,
+  .active {
+    background: linear-gradient(
+      92.23deg,
+      #406aff 21.43%,
+      #3bace2 50.63%,
+      #b936ee 100%,
+      #ff56f6 117.04%
+    );
+  }
+  
+  .active {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base
+  }
